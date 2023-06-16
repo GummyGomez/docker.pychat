@@ -4,7 +4,7 @@ from flask_socketio import SocketIO, emit
 from google.cloud import firestore
 from google.cloud import secretmanager
 import datetime
-import users 
+import users as u
 
 # Create Flask app instance
 app = Flask(__name__, static_url_path='/static')
